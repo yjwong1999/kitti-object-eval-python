@@ -5,7 +5,7 @@ import numba
 import numpy as np
 from scipy.interpolate import interp1d
 
-from second.core.non_max_suppression.nms_gpu import rotate_iou_gpu_eval
+from rotate_iou import rotate_iou_gpu_eval
 
 
 def get_mAP(prec):
